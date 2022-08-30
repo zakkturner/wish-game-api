@@ -15,3 +15,4 @@ use App\Http\Controllers\GameWinnersController;
 
 Route::get('/',[GameWinnersController::class, 'index']);
 
+postgres://xlejhhsmuowqly:57f0c82268dc300c4c8de1241c302d30a93f7bb73dc880e5988bdde265867999@ec2-44-205-112-253.compute-1.amazonaws.com:5432/d4nueqpv4u7i67
