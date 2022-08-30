@@ -9,7 +9,7 @@ class GameWinnersController extends Controller
     //
     public function index(){
         $winners = Gamewinner::all();
-        return view ( 'welcome',compact('winners') );
+        return view ( 'game',compact('winners') );
     }
     public function add(){
         // $email = $request->get('email');
