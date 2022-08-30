@@ -14,4 +14,4 @@ use App\Http\Controllers\GameWinnersController;
 */
 
 Route::get('/',[GameWinnersController::class, 'index']);
-base64:57gNgWpc6jJVZ5qkzM9GZYW5rS/hSsDVvvcboK4cXAk=
+
