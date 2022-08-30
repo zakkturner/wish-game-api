@@ -17,13 +17,12 @@ class GameWinnersController extends Controller
         request()->validate([
             'email' => 'required',
             'score' => 'required',
-
+            'shoe' => 'required'
         ]);
         return GameWinner::create([
             'email' => request('email'),
             'score' => request('score'),
-
-
+            'shoe' => request('shoe'),
         ]);
     }
 }

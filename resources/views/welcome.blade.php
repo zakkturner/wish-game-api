@@ -19,23 +19,36 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        <link rel="stylesheet" href="{{asset('/css/style.css')}}">
     </head>
     <body class="antialiased">
-        @if(isset($winners))
-        <ul>
+        <main class="main">
 
-            @foreach($winners as $winner)
-            <li>
-                <span>Email: {{$winner->email}}</span>
-                <br />
-                <span>Score: {{$winner->score}}</span>
-            </li>
-            <br />
-            @endforeach
-        </ul>
-        @else
-        <div>No data</div>
 
-        @endif
-    </body>
+
+            @if(count($winners) == 0)
+
+            <h2>No data found</h2>
+            @endif
+            @if(isset($winners))
+            <div class="winner-container">
+
+                <ul class="winner-list">
+
+                    @foreach($winners as $winner)
+                    <li>
+                        <span>Email: {{$winner->email}}</span>
+                        <br />
+                        <span>Score: {{$winner->score}}</span>
+                    </li>
+                    <br />
+                    @endforeach
+                </ul>
+            </div>
+
+
+            @endif
+        </main>
+        </body>
+        </div>
 </html>

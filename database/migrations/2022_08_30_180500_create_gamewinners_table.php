@@ -17,6 +17,7 @@ class CreateGamewinnersTable extends Migration
             $table->id();
             $table->string("email");
             $table->string("score");
+            $table->string("shoe");
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreateGamewinnersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gamewinners');
+        Schema::dropIfExists('game_winners');
     }
 }

@@ -9,6 +9,6 @@ class GameWinner extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'email', 'score'
+        'email', 'score', 'shoe'
     ];
 }
