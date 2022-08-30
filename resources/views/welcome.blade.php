@@ -21,7 +21,9 @@
         </style>
     </head>
     <body class="antialiased">
+        @if(isset($winners))
         <ul>
+
             @foreach($winners as $winner)
             <li>
                 <span>Email: {{$winner->email}}</span>
@@ -31,5 +33,9 @@
             <br />
             @endforeach
         </ul>
+        @else
+        <div>No data</div>
+
+        @endif
     </body>
 </html>
