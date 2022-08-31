@@ -7,8 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class GameWinner extends Model
 {
+    public $timestamps = false;
     use HasFactory;
     protected $fillable = [
-        'email', 'score', 'shoe'
+        'firstname','lastname','email', 'score', 'shoe'
     ];
 }

@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::post("/add", [GameWinnersController::class, 'add']);
+Route::post("/update-score", [GameWinnersController::class, 'updateScore']);
