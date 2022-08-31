@@ -5380,6 +5380,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ["winners"]
 });
@@ -10709,7 +10710,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.winner-container {\n    width: 60%;\n}\n.winner-list {\n    display: flex;\n    flex-direction: column;\n    margin-top: 0;\n    padding-left: 0;\n    /* box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75);\n    -webkit-box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75);\n    -moz-box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75); */\n}\n.winner-item {\n    display: grid;\n\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    border-bottom: 1px solid #f3f3f3;\n    padding: 1rem 0;\n}\n.winner-attr {\n}\n.winner-attr:last-child {\n    border: none;\n}\n.winner-header {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    border-bottom: 1px solid #f3f3f3;\n\n    border-top: 1px solid #f3f3f3;\n    margin-top: 0;\n    padding-left: 0;\n    margin-bottom: 0;\n}\n.winner-header-item {\n    list-style-type: none;\n    padding: 1rem 0;\n}\n.winner-item:nth-child(odd) {\n    background: #f3f3f3;\n}\n.winner-header-item h4 {\n    font-weight: 700;\n    margin: 0;\n}\n.email-btn {\n    background: green;\n    color: #fff;\n    padding: 0.5rem 0.75rem;\n    border-radius: 5px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.winner-container {\n    width: 75%;\n}\n.winner-list {\n    display: flex;\n    flex-direction: column;\n    margin-top: 0;\n    padding-left: 0;\n    /* box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75);\n    -webkit-box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75);\n    -moz-box-shadow: -2px 8px 21px -14px rgba(0, 0, 0, 0.75); */\n}\n.winner-item {\n    display: grid;\n\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    border-bottom: 1px solid #f3f3f3;\n    padding: 1rem 0;\n}\n.winner-attr {\n}\n.winner-attr:last-child {\n    border: none;\n}\n.winner-header {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    border-bottom: 1px solid #f3f3f3;\n\n    border-top: 1px solid #f3f3f3;\n    margin-top: 0;\n    padding-left: 0;\n    margin-bottom: 0;\n}\n.winner-header-item {\n    list-style-type: none;\n    padding: 1rem 0;\n}\n.winner-item:nth-child(odd) {\n    background: #f3f3f3;\n}\n.winner-header-item h4 {\n    font-weight: 700;\n    margin: 0;\n}\n.email-btn {\n    background: green;\n    color: #fff;\n    padding: 0.5rem 0.75rem;\n    border-radius: 5px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28744,6 +28745,8 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "winner-container" }, [
+    _c("h1", [_vm._v("Nike Cortez Game Players")]),
+    _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
     _c(

@@ -23,7 +23,24 @@
     </head>
     <body class="antialiased">
         <div id="app">
-<
+            <header class="header">
+                <div class="header-container">
+
+                    <div class="logo-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0961/8798/files/web_logo-01_50x.png?v=1624906440" alt="Wish Atl" srcset="">
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/game-players">View Data</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
             <main class="main">
              @yield('content')
             </main>

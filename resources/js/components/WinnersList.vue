@@ -1,5 +1,6 @@
 <template>
     <div class="winner-container">
+        <h1>Nike Cortez Game Players</h1>
         <ul class="winner-header">
             <li class="winner-header-item">
                 <h4>Emails</h4>
@@ -38,7 +39,7 @@ export default {
 
 <style>
 .winner-container {
-    width: 60%;
+    width: 75%;
 }
 .winner-list {
     display: flex;
