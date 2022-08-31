@@ -15,9 +15,12 @@ class CreateGamewinnersTable extends Migration
     {
         Schema::create('game_winners', function (Blueprint $table) {
             $table->id();
+            $table->string("firstname");
+            $table->string("lastname");
             $table->string("email");
             $table->string("score");
             $table->string("shoe");
+
             $table->timestamps();
         });
     }
