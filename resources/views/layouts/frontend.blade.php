@@ -22,33 +22,30 @@
         <link rel="stylesheet" href="{{asset('/css/style.css')}}">
     </head>
     <body class="antialiased">
-        <main class="main">
+        <div id="app">
+            <header class="header">
+                <div class="header-container">
 
-
-
-            @if(count($winners) == 0)
-
-            <h2>No data found</h2>
-            @endif
-            @if(isset($winners))
-            <div class="winner-container">
-
-                <ul class="winner-list">
-
-                    @foreach($winners as $winner)
-                    <li>
-                        <span>Email: {{$winner->email}}</span>
-                        <br />
-                        <span>Score: {{$winner->score}}</span>
-                    </li>
-                    <br />
-                    @endforeach
-                </ul>
-            </div>
-
-
-            @endif
-        </main>
-        </body>
+                    <div class="logo-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0961/8798/files/web_logo-01_50x.png?v=1624906440" alt="Wish Atl" srcset="">
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/game-players">View Data</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+             @yield('content')
+            </main>
         </div>
+        <script src="{{ asset('js/app.js') }}" ></script>
+</body>
+</div>
 </html>
