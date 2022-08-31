@@ -57,8 +57,7 @@ export default {
     border-bottom: 1px solid #f3f3f3;
     padding: 1rem 0;
 }
-.winner-attr {
-}
+
 .winner-attr:last-child {
     border: none;
 }
